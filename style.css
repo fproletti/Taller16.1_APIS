@@ -1,0 +1,46 @@
+#gallery {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    
+    flex-wrap: wrap; /* Permite que los elementos se ajusten a la siguiente línea si es necesario */    
+  }
+
+  .card {
+    height: 400px;
+    flex-direction: column;
+    padding: 1%;
+    margin: 2%;
+   
+  }
+
+
+  .contImagen {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;     /* Oculta partes de la imagen que sobresalgan */
+    align-items: center;  /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+
+  }
+
+  img {
+    width: 100%;        
+    height: 100%;        
+    object-fit: cover;  }
+
+    #header {
+        font-family: "Sora", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800 ;
+        font-size: 2rem;
+    }
+
+
+    #fotoBtn{
+        display: flex;
+    }
+    #fotoBtn img {
+        width: 400px;
+        margin: 5%;
+        justify-content: center;
+    }
