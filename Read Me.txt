@@ -1,0 +1,4 @@
+Este proyecto utiliza una api gratuita de unsplash lo que significa que el boton random
+tiene un numero limitado de peticiones por api key
+
+si lo usas y no funciona, por favor avísame ! 
